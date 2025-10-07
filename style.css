@@ -1,0 +1,22 @@
+:root {
+  --bg-color: #000000;
+  --text-color: #000000;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121121;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
